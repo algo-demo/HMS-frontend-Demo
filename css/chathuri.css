@@ -1,0 +1,37 @@
+.container{
+    
+    
+}
+#middleContent{
+    background-image: url(../images/Main_BG.png);
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+}
+label{
+    color: rgb(255, 255, 255);
+    font-weight: 400;
+}
+#patAdmitTitle{
+    color: aliceblue;
+}
+#registerBtn{
+    background-color: #234DFF;
+    color: #ffffff;
+    margin-left: 72%;
+    padding: 0.5em 2em;
+    border-radius:50px;
+    font-weight: 500;
+}
+.regInput{
+    border-radius: 15px;
+}
+.addOption{
+    border-radius: 15px;
+    width: 100%;
+}
+.mb-3 .addOption {
+    margin-top: 0.5rem;
+}
+
+

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Patient Admission</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/chathuri.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <!-- Side Bar section-->
+            <div class="col-3">
+
+            </div>
+
+            <!-- middle content section-->
+            <div class="col-6" id="middleContent">
+                <h2 class="pt-5 ps-5" id="patAdmitTitle">Patient Admission</h2>
+                <hr
+                    style="width:50%;text-align:left;margin-left:5%;border-width: 3px;border-color: rgb(255, 255, 255);">
+
+                <form class="pt-5 ps-5">
+                    <div class="row">
+                        <div class="col-6">
+                            <div class="col-10 mb-3">
+                                <label for="patientID" class="form-label">Patient ID</label>
+                                <input type="text" class="regInput form-control" id="patientId">
+                            </div>
+                            <div class="col-10 mb-3">
+                                <label for="patientName" class="form-label">Patient Name</label>
+                                <input type="text" class="regInput form-control" id="patientName">
+                            </div>
+                            <div class="col-10 mb-3">
+                                <label for="NIC" class="form-label">NIC</label>
+                                <input type="text" class="regInput form-control" id="NIC">
+                            </div>
+                            <div class="col-10 mb-3">
+                                <label for="gender" class="form-label">Gender</label>
+                                <input type="text" class="regInput form-control" id="gender">
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="col-10 mb-3">
+                                <label for="ward" class="form-label">Select Ward</label>
+                                <div>
+                                    <select id="dropdown" class="addOption" name="dropdown">
+                                        <option value="option1">Option 1</option>
+                                        <option value="option2" selected>Option 2</option>
+                                        <option value="option3">Option 3</option>
+                                    </select>
+                                </div>
+
+                            </div>
+                            <div class="col-10 mb-3">
+                                <label for="bed" class="form-label">Select Bed</label>
+                                <div>
+                                    <select id="dropdown" class="addOption" name="dropdown">
+                                        <option value="option1">Option 1</option>
+                                        <option value="option2" selected>Option 2</option>
+                                        <option value="option3">Option 3</option>
+                                    </select>
+                                </div>
+
+                            </div>
+                            <div class="col-10 mb-3">
+                                <label for="doctor" class="form-label">Select Doctor</label>
+                                <div>
+                                    <select id="dropdown3" class="addOption" name="dropdown3">
+                                        <option value="option1">Option 1</option>
+                                        <option value="option2" selected>Option 2</option>
+                                        <option value="option3">Option 3</option>
+                                    </select>
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <button type="button" class="btn" id="registerBtn">Add</button>
+
+                </form>
+            </div>
+
+            <!-- calander section -->
+            <div class="col-3">
+
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
