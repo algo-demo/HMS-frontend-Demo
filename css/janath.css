@@ -1,0 +1,142 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    margin: 0;
+  }
+
+  .wrapper {
+    max-width: 1100px;
+  }
+
+  /* Calendar container */
+  .container-calendar {
+    background: #ffffff;
+    padding: 15px;
+    max-width: 370px;
+    margin: 0 auto;
+    overflow: auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: space-between;
+  }
+
+  /* Buttons in the calendar */
+  .button-container-calendar button {
+    cursor: pointer;
+    background: green;
+    color: #fff;
+    border: 1px solid green;
+    border-radius: 4px;
+    padding: 5px 10px;
+  }
+
+  /* Calendar table */
+  .table-calendar {
+    border-collapse: collapse;
+    width: 100%;
+  }
+
+  .table-calendar td,
+  .table-calendar th {
+    padding: 5px;
+    border: 1px solid #e2e2e2;
+    text-align: center;
+    vertical-align: top;
+  }
+
+  /* Day-specific styling */
+  .date-picker:nth-child(1) {
+    color: red;
+    /* Sunday */
+  }
+
+  .date-picker:nth-child(6) {
+    color: green;
+    /* Friday */
+  }
+
+  /* Hover effect for date cells */
+  .date-picker:hover {
+    background-color: green;
+    color: white;
+    cursor: pointer;
+  }
+
+  /* Header for month and year */
+  #monthAndYear {
+    text-align: center;
+    margin-top: 0;
+  }
+
+  /* Navigation buttons */
+  .button-container-calendar {
+    position: relative;
+    margin-bottom: 1em;
+    overflow: hidden;
+    clear: both;
+  }
+
+  #previous {
+    float: left;
+  }
+
+  #next {
+    float: right;
+  }
+
+  /* Footer styling */
+  .footer-container-calendar {
+    margin-top: 1em;
+    border-top: 1px solid #dadada;
+    padding: 10px 0;
+  }
+
+  .footer-container-calendar select {
+    cursor: pointer;
+    background: #ffffff;
+    color: #585858;
+    border: 1px solid #bfc5c5;
+    border-radius: 3px;
+    padding: 5px 1em;
+  }
+
+  body {
+    background-image: url("../resources/img.jpg"); /* Replace 'your-image-url.jpg' with the path to your image */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .container-fluid {
+    padding: 20px;
+  }
+
+  .sidebar {
+    background-color: #343a40;
+    color: #ffffff;
+    padding: 20px;
+    height: 100vh;
+  }
+
+  .card {
+    margin-bottom: 20px;
+    background-color: #ffffff; /* Set background color to white */
+    color: #007bff; /* Set text color to blue */
+    border: 1px solid #0056b3;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 250px;
+  }
+
+  #time-card {
+    width: 250px;
+    height: 80px;
+    border-radius: 15px; /* Slightly increased border-radius for a smoother appearance */
+    text-align: center;
+    background-color: #ffffff; /* Background color */
+    color: #007bff; /* Text color */
+  }
+  #time-card .card-body {
+    padding: 20px;
+  }
